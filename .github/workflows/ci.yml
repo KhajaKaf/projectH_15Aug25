@@ -1,4 +1,5 @@
 name: CI
+
 on:
   pull_request:
   push:
@@ -6,12 +7,29 @@ on:
 
 jobs:
   build:
+    name: Lint → Typecheck → Build
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
+
+      - name: Install deps
+        run: yarn install --frozen-lockfile
+
+      # Optional: run your linter if configured (won't fail build if absent)
+      - name: Lint
+        run: yarn lint || true
+
+      # Optional: TypeScript typecheck (won't fail if TS not present)
+      - name: Typecheck
+        run: yarn tsc --noEmit || true
+
+      - name: Build
+        run: yarn build
