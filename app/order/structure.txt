@@ -1,0 +1,7 @@
+.
+├── [tableId]
+│   └── page.js
+├── page.jsx
+└── structure.txt
+
+2 directories, 3 files

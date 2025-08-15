@@ -1,0 +1,152 @@
+.
+├── app
+│   ├── admin
+│   │   ├── login
+│   │   └── page.js
+│   ├── api
+│   │   ├── auth
+│   │   ├── menu
+│   │   ├── orders
+│   │   ├── payments
+│   │   ├── pusher
+│   │   ├── tables
+│   │   └── webhooks
+│   ├── contact
+│   │   └── page.js
+│   ├── error.js
+│   ├── globals.css
+│   ├── layout.js
+│   ├── menu
+│   │   └── page.js
+│   ├── not-found.js
+│   ├── order
+│   │   ├── [tableId]
+│   │   ├── active
+│   │   ├── board
+│   │   ├── OrderClient.jsx
+│   │   ├── page.jsx
+│   │   └── structure.txt
+│   ├── page.js
+│   ├── pay
+│   │   └── [orderId]
+│   └── structure.txt
+├── backend
+│   ├── requirements.txt
+│   └── server.py
+├── backend_test.py
+├── components
+│   ├── Footer.jsx
+│   ├── Navbar.jsx
+│   └── ui
+│       ├── accordion.jsx
+│       ├── alert-dialog.jsx
+│       ├── alert.jsx
+│       ├── aspect-ratio.jsx
+│       ├── avatar.jsx
+│       ├── badge.jsx
+│       ├── breadcrumb.jsx
+│       ├── button.jsx
+│       ├── calendar.jsx
+│       ├── card.jsx
+│       ├── carousel.jsx
+│       ├── checkbox.jsx
+│       ├── collapsible.jsx
+│       ├── command.jsx
+│       ├── context-menu.jsx
+│       ├── dialog.jsx
+│       ├── drawer.jsx
+│       ├── dropdown-menu.jsx
+│       ├── form.jsx
+│       ├── hover-card.jsx
+│       ├── input-otp.jsx
+│       ├── input.jsx
+│       ├── label.jsx
+│       ├── menubar.jsx
+│       ├── navigation-menu.jsx
+│       ├── pagination.jsx
+│       ├── popover.jsx
+│       ├── progress.jsx
+│       ├── radio-group.jsx
+│       ├── resizable.jsx
+│       ├── scroll-area.jsx
+│       ├── select.jsx
+│       ├── separator.jsx
+│       ├── sheet.jsx
+│       ├── skeleton.jsx
+│       ├── slider.jsx
+│       ├── sonner.jsx
+│       ├── switch.jsx
+│       ├── table.jsx
+│       ├── tabs.jsx
+│       ├── textarea.jsx
+│       ├── toast.jsx
+│       ├── toaster.jsx
+│       ├── toggle-group.jsx
+│       ├── toggle.jsx
+│       └── tooltip.jsx
+├── contracts.md
+├── frontend
+│   ├── components.json
+│   ├── craco.config.js
+│   ├── jsconfig.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── README.md
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── components
+│   │   ├── hooks
+│   │   ├── index.css
+│   │   ├── index.js
+│   │   ├── lib
+│   │   └── mock.js
+│   ├── structure.txt
+│   ├── tailwind.config.js
+│   └── yarn.lock
+├── hooks
+│   └── use-toast.js
+├── jsconfig.json
+├── lib
+│   ├── mock.js
+│   ├── prisma.js
+│   ├── pusher.js
+│   ├── services
+│   │   ├── cloudinary.js
+│   │   └── twilio.js
+│   └── utils.js
+├── middleware.ts
+├── next.config.js
+├── package.json
+├── pages
+│   └── _error.js
+├── postcss.config.js
+├── prisma
+│   ├── migrations
+│   │   ├── 20250810120522_table_locking_static_qr
+│   │   ├── 20250810125137_table_locking_payment_flow
+│   │   ├── 20250811052153_add_order_token_number
+│   │   ├── 20250811081007_add_user_auth
+│   │   └── migration_lock.toml
+│   ├── schema.prisma
+│   └── seed.js
+├── providers
+│   └── cart-provider.jsx
+├── public
+│   ├── index.html
+│   ├── kks-empire-logo.png
+│   └── videos
+│       └── KKsEmpire.mp4
+├── README.md
+├── scripts
+│   ├── hash.mjs
+│   └── seed-admin.js
+├── structure.txt
+├── tailwind.config.js
+├── test_result.md
+├── tests
+│   └── __init__.py
+├── vercel.json
+└── yarn.lock
+
+43 directories, 107 files

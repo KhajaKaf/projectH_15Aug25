@@ -1,0 +1,50 @@
+.
+├── admin
+│   ├── login
+│   │   └── page.js
+│   └── page.js
+├── api
+│   ├── auth
+│   │   ├── login
+│   │   ├── logout
+│   │   └── me
+│   ├── menu
+│   │   └── route.js
+│   ├── orders
+│   │   ├── [id]
+│   │   ├── active
+│   │   └── route.js
+│   ├── payments
+│   │   └── razorpay
+│   ├── pusher
+│   │   └── auth
+│   ├── tables
+│   │   ├── lookup
+│   │   └── session
+│   └── webhooks
+│       └── razorpay
+├── contact
+│   └── page.js
+├── error.js
+├── globals.css
+├── layout.js
+├── menu
+│   └── page.js
+├── not-found.js
+├── order
+│   ├── [tableId]
+│   │   └── page.js
+│   ├── active
+│   │   └── route.js
+│   ├── board
+│   │   └── page.js
+│   ├── OrderClient.jsx
+│   ├── page.jsx
+│   └── structure.txt
+├── page.js
+├── pay
+│   └── [orderId]
+│       └── page.js
+└── structure.txt
+
+29 directories, 19 files

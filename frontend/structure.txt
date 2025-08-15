@@ -1,0 +1,30 @@
+.
+├── README.md
+├── components.json
+├── craco.config.js
+├── jsconfig.json
+├── package.json
+├── postcss.config.js
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── components
+│   │   ├── ContactPage.jsx
+│   │   ├── Footer.jsx
+│   │   ├── HomePage.jsx
+│   │   ├── MenuPage.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── OrderFromTable.jsx
+│   │   └── ui
+│   ├── hooks
+│   │   └── use-toast.js
+│   ├── index.css
+│   ├── index.js
+│   ├── lib
+│   │   └── utils.js
+│   └── mock.js
+├── structure.txt
+├── tailwind.config.js
+└── yarn.lock
+
+6 directories, 22 files
